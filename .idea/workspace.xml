@@ -148,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607247256959</updated>
       <workItem from="1607247258085" duration="1331000" />
-      <workItem from="1607249655106" duration="2443000" />
+      <workItem from="1607249655106" duration="3508000" />
     </task>
     <servers />
   </component>
@@ -160,16 +160,5 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607251757884" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/layouts/app.blade.php</url>
-          <line>59</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

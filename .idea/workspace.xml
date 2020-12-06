@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -118,6 +118,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lHHmhYBSiDIi3inRdGK9fHIsl3" />
@@ -129,6 +130,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -146,10 +148,28 @@
       <option name="presentableId" value="Default" />
       <updated>1607247256959</updated>
       <workItem from="1607247258085" duration="1331000" />
+      <workItem from="1607249655106" duration="2443000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1607251757884">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607251757884" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layouts/app.blade.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

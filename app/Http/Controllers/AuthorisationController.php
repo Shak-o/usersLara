@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
+
 class AuthorisationController extends Controller
 {
     public function register(Request $request){
@@ -15,8 +17,8 @@ class AuthorisationController extends Controller
         User::create([
            'name' => $request->name,
            'email' => $request -> email,
-            'password' => $request -> password,
+           'birthdate' => $request -> birthdate,
+           'password' => Hash::make($request['password']),
         ]);
-        return $request->all();
     }
 }

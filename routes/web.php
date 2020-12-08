@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/custom/reg', [App\Http\Controllers\HomeController::class, 'register'])->name('auth.custom.register');
